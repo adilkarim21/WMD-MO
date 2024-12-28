@@ -1,0 +1,10 @@
+.CardsDiv{
+    padding: 20px;
+    border: 1px solid lightgrey;
+    box-shadow: 0 0 8px white;
+    transition: 0.5s;
+}
+
+.CardsDiv:hover {
+    box-shadow: 0 0 15px black;
+}

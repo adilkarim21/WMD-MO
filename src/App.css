@@ -1,0 +1,45 @@
+body{
+  background: rgb(150,150,150);
+  background: linear-gradient(180deg, rgba(150,150,150,1) 0%, rgba(150,150,150,1) 50%, rgba(150,150,150,1) 100%);
+}
+
+.HeadingDiv{
+  color: white;
+  margin: 10px;
+  margin-top: 35px;
+  text-align: center;
+  text-shadow: 3px 3px 5px grey;
+}
+
+h1:hover {
+  text-shadow: 3px 3px 10px black;
+}
+
+.CardMainDiv{
+  margin: 30px;
+  padding: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  column-gap: 20px;
+  row-gap: 30px;
+  text-align: center;
+}
+
+.IconDiv{
+  color: white;
+  margin: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 30px;
+  font-size: 200px;
+  margin-bottom: 60px;
+}
+
+.MaterialUIDiv{
+  padding: 30px;
+  background-color: white;
+  text-align: center;
+}
